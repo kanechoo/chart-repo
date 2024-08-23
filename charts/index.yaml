@@ -3,13 +3,13 @@ entries:
   aria2-pro-ng:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-08-23T16:30:45.897379+08:00"
+    created: "2024-08-23T16:58:56.443015+08:00"
     description: A Helm chart for aria2-pro-ng
-    digest: 56ccf9c8ecc51d4af0a33e799bf1d8a49425ad868c7362b25cba6554135ed622
+    digest: 411dd6149812605fe45e421ea5321b2d0e7cea5b6bc70fb10322401dcec5574a
     icon: https://raw.githubusercontent.com/kanechoo/helm-chart/master/aria2-pro-ng/icon.png
     name: aria2-pro-ng
     type: application
     urls:
     - https://kanechoo.github.io/chart-repo/charts/aria2-pro-ng-0.1.0.tgz
     version: 0.1.0
-generated: "2024-08-23T16:30:45.896545+08:00"
+generated: "2024-08-23T16:58:56.441541+08:00"
