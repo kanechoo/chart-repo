@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Helm Chart Repository</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        pre {
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            padding: 10px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to My Helm Chart Repository</h1>
+    <p>This repository contains Helm charts for various Kubernetes applications. Below is a quick guide on how to install the charts from this repository.</p>
+    
+    <h2>Installation Guide</h2>
+    <ol>
+        <li>Ensure you have <a href="https://helm.sh/docs/intro/install/" target="_blank">Helm</a> installed on your machine.</li>
+        <li>Add the Helm chart repository to your Helm client:</li>
+        <pre><code>helm repo add my-repo https://your-username.github.io/my-helm-charts/charts</code></pre>
+        <li>Update your Helm repository list:</li>
+        <pre><code>helm repo update</code></pre>
+        <li>Search for available charts in the repository:</li>
+        <pre><code>helm search repo my-repo</code></pre>
+        <li>Install a specific chart from the repository. Replace `<chart-name>` with the name of the chart you want to install:</li>
+        <pre><code>helm install my-release my-repo/<chart-name></code></pre>
+    </ol>
+
+    <h2>Support</h2>
+    <p>If you have any questions or need further assistance, please open an issue on the <a href="https://github.com/your-username/my-helm-charts/issues" target="_blank">GitHub repository</a>.</p>
+    
+    <footer>
+        <p>© 2024 My Helm Charts</p>
+    </footer>
+</body>
+</html>
